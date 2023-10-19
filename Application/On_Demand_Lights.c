@@ -58,6 +58,11 @@ State Event_Handler(State CurrentState , Event Trigger)
 	}
 }
 
+// Button ISR
+ISR(INTRPT0)
+{
+	CurrentState = Event_Handler(CurrentState , Button);
+}
 
 void App_Init()
 {
@@ -89,6 +94,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case Y:
@@ -107,6 +114,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case G:
@@ -122,6 +131,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case Y_2:
@@ -140,6 +151,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case Y_GY:
@@ -161,6 +174,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case R_G:
@@ -173,6 +188,8 @@ void App_Run()
 			
 			// Delay for 5 seconds
 			Tim0_vidDelay_MS(5000, Tim0_PS_1);
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 			
 			case Y_RY:
@@ -194,6 +211,8 @@ void App_Run()
 				// increment the delay counter
 				DelayCounter++;
 			}
+			// Go to next state due to the end of this state by time out
+			CurrentState = Event_Handler(CurrentState , TimeOut);
 			break;
 		}
 	}
