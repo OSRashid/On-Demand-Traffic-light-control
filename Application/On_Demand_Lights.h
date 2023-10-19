@@ -10,6 +10,36 @@
 #define ON_DEMAND_LIGHTS_H_
 
 
+// Enum for states definitions
+typedef enum {
+	R,
+	Y,
+	G,
+	Y_2,
+	Y_GY,
+	R_G,
+	Y_RY
+} State;
+
+
+// Enum for event triggers definitions
+typedef enum {
+	Button,
+	TimeOut
+} Event;
+
+
+// event handler helper function
+State Event_Handler(State CurrentState , Event Trigger);
+
+// App initiation function
+void App_Init();
+
+// App run function
+void App_Run();
+
+
+
 
 
 
