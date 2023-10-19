@@ -25,10 +25,10 @@ In pedestrian mode:
 6. Traffic lights signals are going to the normal mode again.
  
 Success criteria:
-User story 1: As a pedestrian when I will make a short press on the crosswalk button while the cars green light is on and pedestrian red light is off, I will wait for the yellow lights to blink for five seconds then the cars red light is on and pededstrian green light is on for five seconds, so that I can cross the street
-User story 2: As a pedestrian when I will make a short press on the crosswalk button while the cars yellow light is blinking and pedestrian red light is on, I will wait for all yellow lights to blink for five seconds then the cars red light is on and pededstrian green light is on for five seconds, so that I can cross the street
-User story 3: As a pedestrian when I will make a short press on the crosswalk button while the cars red light is on and pedestrian green light is on, I expect nothing to be done
-User story 4: As a pedestrian when I made a long press on the crosswalk button, I expect nothing to be done.
-User story 5: As a pedestrian when I made a double press on the crosswalk button, I expect that the first press will do the action and nothing to be done after the second press.
+1. User story 1: As a pedestrian when I will make a short press on the crosswalk button while the cars green light is on and pedestrian red light is off, I will wait for the yellow lights to blink for five seconds then the cars red light is on and pededstrian green light is on for five seconds, so that I can cross the street.
+2. User story 2: As a pedestrian when I will make a short press on the crosswalk button while the cars yellow light is blinking and pedestrian red light is on, I will wait for all yellow lights to blink for five seconds then the cars red light is on and pededstrian green light is on for five seconds, so that I can cross the street.
+3. User story 3: As a pedestrian when I will make a short press on the crosswalk button while the cars red light is on and pedestrian green light is on, I expect nothing to be done.
+4. User story 4: As a pedestrian when I made a long press on the crosswalk button, I expect nothing to be done.
+5. User story 5: As a pedestrian when I made a double press on the crosswalk button, I expect that the first press will do the action and nothing to be done after the second press.
 
  ![Untitled Workspace](https://github.com/OSRashid/On-Demand-Traffic-light-control/assets/30478113/3ee02749-5dd6-4465-8031-39fa7869c8e1)
