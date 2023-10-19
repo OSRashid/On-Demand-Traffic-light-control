@@ -3,7 +3,7 @@ This is a capstone project for Udacity's embedded systems professional course.
 the followig is the project's description, requirements and success criteria, state machine for my code will attached in the end.
  
 Project description:
-There are two types of lights on the street, traffic lights and pedestrian lights, when the pedestrian want to pass te street they should press a button on the light pole so that trafic and pedestrian light change accordingly to make the cars stop and pedestrian pass safely, in the software requirements the exact way of operation will be explained.
+- There are two types of lights on the street, traffic lights and pedestrian lights, when the pedestrian want to pass te street they should press a button on the light pole so that trafic and pedestrian light change accordingly to make the cars stop and pedestrian pass safely, in the software requirements the exact way of operation will be explained.
  
 Hardware requirements:
 1. ATmega32 microcontroller
