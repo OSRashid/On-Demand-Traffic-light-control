@@ -25,12 +25,12 @@
 
 // Traffic lights initiation function
 void Lights_vidInit();
-// Set light function whether by color
+// Set light function by color and type
 void Lights_vidSET_Light (u8 light);
 // All lights off
 void Lights_vidAllOff();
-// Toggle yellow light function
-void Lights_vidTogYellow();
+// Toggle yellow light function whether traffic or pedestrian
+void Lights_vidTogYellow(u8 type);
 
 
 #endif /* TRAFFIC_LIGHTS_H_ */
